@@ -91,6 +91,39 @@ nav ul li a{
     font-size: 17px;
 }
 
+/* search bar */
+
+.navbar img {
+    max-width: 20px;
+    max-height: 16px;
+    z-index: -1;
+}
+
+#searchb{
+    margin: 2px;
+    padding: 6px;
+    max-width: 20px;
+    border:5px ridge transparent;
+    border-radius: 5px;
+}
+
+.navbar form{
+    display: grid;
+  flex-flow: row wrap;
+  align-items: center;
+  display: inline;
+}
+.navbar ::placeholder{
+    color:black;
+    font-family: "Playfair Display","Ubuntu", sans-serif;}
+
+.navbar input {
+    padding: 7px 20px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+
 .title{
     text-decoration: none;
     /* display: inline-block; */
